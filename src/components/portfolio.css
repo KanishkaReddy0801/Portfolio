@@ -1,3 +1,9 @@
+.portfolio {
+    position: relative;
+    background-color: black;
+    top: 0;
+}
+
 h1 {
     color: white;
     font-size: 36px;
@@ -51,7 +57,7 @@ p {
 
 .part3 {
     display: flex;
-    width: 85%;
+    width: 100%;
     margin-top: 120px;
 }
 
@@ -59,4 +65,130 @@ p {
     width: 700px;
     height: 760px;
     object-fit: cover;
+}
+
+.passions {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 500px;
+}
+
+.part3 p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.part4 {
+    display: flex;
+    width: 85%;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.skill {
+    margin-left: 250px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px outset white;
+}
+
+.skills h5 {
+    font-size: 18px;
+    margin-top: 55px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.skills p {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #FCB464;
+}
+
+.part5 {
+    width: 85%;
+    height: 1000px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.project {
+    text-align: left;
+    margin-top: 60px;
+}
+
+.project h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #FCB464;
+}
+
+.project p {
+    font-size: 16px;
+    margin-top: 0px;
+    line-height: 25px;
+}
+
+.project a {
+    font-size: 12px;
+}
+
+.project a:hover {
+    font-size: 14px;
+    color: #FCB464;
+    transition: all 1s;
+}
+
+.background {
+    width: 100%;
+    height: 760px;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.part7 {
+    display: flex;
+    width: 100%;
+    margin-top: 700px;
+    background-color: black;
+    position: relative;
+    height: 330px;
+}
+
+.info {
+    margin-left: 100px;
+}
+
+.info h2 {
+    text-align: left;
+}
+
+.info h4 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.info p {
+    margin-top: 5px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.insta, .linkedin {
+    font-size: 25px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.insta:hover, .linkedin:hover {
+    font-size: 30px;
+    color: #FCB464;
+    transition: all 1s;
 }
